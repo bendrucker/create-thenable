@@ -2,7 +2,6 @@
 
 > Create a thenable for a given Promise
 
-
 ## Install
 
 ```
