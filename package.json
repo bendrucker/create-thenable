@@ -1,7 +1,7 @@
 {
   "name": "create-thenable",
   "main": "./src",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a thenable for a given Promise prototype",
   "license": "MIT",
   "repository": "bendrucker/create-thenable",
