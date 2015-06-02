@@ -12,8 +12,7 @@ $ npm install --save create-thenable
 ## Usage
 
 ```js
-var createThenable = require('create-thenable');
-var thenable = createThenable(require('bluebird'));
+var thenable = require('create-thenable')(require('bluebird'))
 return thenable.catch(errHandlers).then(handler)
 ```
 
@@ -37,18 +36,18 @@ thenable.tap(function () {
 
 ## API
 
-### createThenable(Promise, resolver)
+#### `createThenable(Promise, resolver)` -> `thenable`
 
-#### `Promise`
+#### Promise
 
-*Required*
+*Required*  
 Type: `function`
 
-A `Promise` constructor
+A Promise constructor
 
-#### `resolver`
+##### resolver
 
-*Required*
+*Required*  
 Type: `function`
 
 The resolver function to pass to the Promise constructor
