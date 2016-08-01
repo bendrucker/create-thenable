@@ -22,7 +22,7 @@
     "prototype"
   ],
   "dependencies": {
-    "object-omit": "~1.0.0",
+    "object.omit": "~2.0.0",
     "unique-concat": "~0.2.2"
   },
   "devDependencies": {
