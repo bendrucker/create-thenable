@@ -1,7 +1,7 @@
 'use strict'
 
 var concat = require('unique-concat')
-var omit = require('object-omit')
+var omit = require('object.omit')
 
 module.exports = function createThenable (Promise, resolver) {
   return methods(Promise).reduce(createMethod, {then: then})
@@ -15,7 +15,7 @@ module.exports = function createThenable (Promise, resolver) {
       return promise[name].apply(promise, arguments)
     }
   }
-  function then (/*onFulfill, onReject*/) {
+  function then (/* onFulfill, onReject */) {
     var promise = new Promise(resolver)
     return promise.then.apply(promise, arguments)
   }
