@@ -22,13 +22,13 @@
     "prototype"
   ],
   "dependencies": {
-    "object.omit": "~2.0.0",
+    "object.omit": "~3.0.0",
     "unique-concat": "~0.2.2"
   },
   "devDependencies": {
     "bluebird": "^3.4.1",
     "q": "^1.4.0",
-    "standard": "^7.1.2",
+    "standard": "^12.0.1",
     "tape": "^4.0.0"
   }
 }
