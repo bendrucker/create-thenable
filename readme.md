@@ -1,4 +1,4 @@
-# create-thenable [![Build Status](https://travis-ci.org/bendrucker/create-thenable.svg?branch=master)](https://travis-ci.org/bendrucker/create-thenable)
+# create-thenable [![Build Status](https://travis-ci.org/bendrucker/create-thenable.svg?branch=master)](https://travis-ci.org/bendrucker/create-thenable) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/create-thenable.svg)](https://greenkeeper.io/)
 
 > Create a thenable for a given Promise
 
