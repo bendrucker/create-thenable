@@ -1,6 +1,6 @@
 {
   "name": "create-thenable",
-  "main": "./src",
+  "main": "./index.js",
   "version": "1.0.2",
   "description": "Create a thenable for a given Promise prototype",
   "license": "MIT",
